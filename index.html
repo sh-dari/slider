@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Задание Табы">
+  <meta name="author" content="Дарья Шипилова">
+  <link rel="stylesheet" href="./index.css">
+  <title>Слайдер</title>
+</head>
+<body class="body">
+  <header class="header">
+    <div class="header__content">
+      <div class="header__logo"></div>
+      <p class="header__text">Текст</p>
+    </div>
+    <div class="header__line">
+      <div class="header__short-line"></div>
+    </div>
+  </header>
+  <h1 class="body__header">Слайдер</h1>
+  <div class="slider__wrapper">
+    <div class="slider">
+      <div class="slider__line">
+        <div class="slider__item">
+          <img class="slider__image" src="./images/slider1.jpg" alt="Отчёты"/>
+          <p class="slider__text">Текст 1</p>
+        </div>
+        <div class="slider__item">
+          <img class="slider__image" src="./images/slider2.jpg" alt="Дата"/>
+          <p class="slider__text">Текст 2</p>
+        </div>
+        <div class="slider__item">
+          <img class="slider__image" src="./images/slider3.jpg" alt="Заказ-наряды"/>
+          <p class="slider__text">Текст 3</p>
+        </div>
+        <div class="slider__item">
+          <img class="slider__image" src="./images/slider4.jpg" alt="Отчёты по заказ-нарядам"/>
+          <p class="slider__text">Текст 4</p>
+        </div>
+      </div>
+      <div class="slider__nav">
+        <button class="slider__prev" type="button"></button>
+        <div class="slider__dots">
+          <div class="slider__dot slider__dot_active"></div>
+          <div class="slider__dot"></div>
+          <div class="slider__dot"></div>
+          <div class="slider__dot"></div>
+        </div>
+        <button class="slider__next" type="button"></button>
+      </div>
+    </div>
+  </div>
+  <button type="button" value="Продолжить" class="body__button" disabled>Продолжить</button>
+  <div class="body__line"></div>
+  <script src="./index.js"></script>
+</body>
+</html>
